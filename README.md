@@ -46,6 +46,7 @@ docker run -d --name mongo-container --network flasknet -p 27017:27017 mongo
 ##  Build and Run Flask App
 
 docker build -t flask-mongo-crud .
+
 docker run -p 5000:5000 --network flasknet flask-mongo-crud
 
 
