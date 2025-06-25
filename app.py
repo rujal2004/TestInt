@@ -9,8 +9,15 @@ app.config["MONGO_URI"] = "mongodb://mongo-container:27017/mydatabase"
 mongo = PyMongo(app)
 users_collection = mongo.db.users
 
+
+@app.route('/')
+def home():
+    return jsonify("Welcome to API")
+
+
 @app.route('/users',methods =['GET'])
 def get_users():
+    
     #Fetch all users from the mongodb ,excluding passwords
     users = list(users_collection.find({},{"password": 0}))
     for user in users:
