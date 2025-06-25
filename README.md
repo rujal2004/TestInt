@@ -20,9 +20,13 @@ API tested with Postman collections
 
 ## Project Structure
 projecttutorial/
+
 ├── app.py # Main Flask app
+
 ├── requirements.txt # Python dependencies
+
 ├── Dockerfile # Flask app Docker config
+
 ├── README.md # You're reading this!
 
 
