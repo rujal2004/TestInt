@@ -50,6 +50,34 @@ docker build -t flask-mongo-crud .
 docker run -p 5000:5000 --network flasknet flask-mongo-crud
 
 
+## Screenshots
+
+  ## Docker Containers Running
+
+  ![Docker Containers]![image](https://github.com/user-attachments/assets/e1dea9be-baab-4c3e-ab6c-658dade289ad)
+
+  ## Postman - Create User (POST)
+
+  ![Postman POST] ![image](https://github.com/user-attachments/assets/a3236770-9eb9-4122-9665-9532b17f4ace)
+
+  ## Postman - All User (GET)
+
+  ![Postman GET] ![image](https://github.com/user-attachments/assets/0ef21dd4-0626-4ba9-ab32-8370249d9ccf)
+
+  ## Postman - Upadate User(Put)
+
+  ![Postman PUT]![image](https://github.com/user-attachments/assets/01514f0d-ade6-4959-8060-937957ed769b)
+
+  ## Postman - Delete User(Delete)
+
+  ![Postman DELETE]![image](https://github.com/user-attachments/assets/d8dbcb69-3674-430c-acde-27dd4b577dbd)
+
+
+
+
+  
+
+
 
 
 
