@@ -30,7 +30,7 @@ projecttutorial/
 
 ###  Step 1: Clone the Repository
 
-git clone https://github.com/yourusername/flask-mongo-crud.git
+git clone https://github.com/rujal2004/flask-mongo-crud.git
 
 cd flask-mongo-crud
 
